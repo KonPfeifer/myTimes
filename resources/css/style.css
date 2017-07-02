@@ -38,10 +38,20 @@ li {
   display: flex;
   flex-direction: column;
   width: 630px;
+  padding: 10px;
 }
 
 #largeSmall {
  display: flex;
+ justify-content: space-between;
+}
+
+#orca {
+  width: 280px;
+}
+
+#burger {
+  width: 280px;
 }
 
 #pictureArticles {
@@ -51,12 +61,22 @@ li {
 
 #medium {
   width: 300px;
+  padding: 10px;
 }
 
-#small {
+.small {
   display: flex;
-  direction: column;
+  direction: row;
   width: 240px;
+  padding: 10px;
+}
+
+#earth {
+  width: 280px;
+}
+
+#cameras {
+  width: 280px;
 }
 
 #footer {
