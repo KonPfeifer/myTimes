@@ -46,21 +46,34 @@ li {
  justify-content: space-between;
 }
 
-#orca {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-}
-
 #burger {
   display: flex;
   flex-direction: column;
   width: 300px;
 }
 
+#burger p {
+  margin-top: -5px;
+}
+
+#orca {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+}
+
+#orca p {
+  margin-top: -5px;
+}
+
 #pictureArticles {
   display: flex;
   direction: column;
+  justify-content: space-between;
+}
+
+#pictureArticlesLine {
+  width: 300px;
 }
 
 #medium {
