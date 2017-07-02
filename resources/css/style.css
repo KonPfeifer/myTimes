@@ -65,10 +65,7 @@ li {
 }
 
 #small {
-  display: flex;
-  direction: column;
-  width: 240px;
-  padding: 10px;
+
 }
 
 img.cookie {
@@ -87,6 +84,16 @@ img.cookie {
 
 .news-bites {
 
+}
+
+.news-bites.bite {
+  display: block;
+  padding: 10px;
+  bottom-border: solid black 1px;
+  background-color: WhiteSmoke;
+  color: DimGray;
+  font-family: Verdana;
+  font-size: 12px;
 }
 
 #earth {
