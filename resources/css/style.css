@@ -34,11 +34,35 @@ li {
   display: flex;
 }
 
+p {
+  font-size: 17px;
+  color: black;
+}
+
 .large {
   display: flex;
   flex-direction: column;
   width: 630px;
   padding: 10px;
+  padding-left: 40px;
+}
+
+#mainImage {
+  background-image: url(../main_story.png);
+  height: 300px;
+  width: 625px;
+  display: flex;
+}
+
+#mainHeadline {
+  color: white;
+  position: relative;
+  display: inline;
+  top: 60px;
+  left: 20px;
+  font-size: 40px;
+  width: 550px;
+  font-weight: bold;
 }
 
 #largeSmall {
@@ -72,8 +96,25 @@ li {
   justify-content: space-between;
 }
 
-#pictureArticlesLine {
+#pictureArticlesText {
   width: 300px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: 75px;
+}
+
+#earthImage {
+  display: flex;
+  background-image: url("../fall_season.png");
+  height: 300px;
+}
+
+#cameraImage {
+  display: flex;
+  background-image: url("../hipster_cameraman.png");
 }
 
 #medium {
@@ -82,6 +123,12 @@ li {
   display: flex;
   flex-direction: column;
   min-width: 300px;
+}
+
+#cat {
+  display: flex;
+  background-image: url("../cat_ceo.png");
+  height: 300px;
 }
 
 #small {
