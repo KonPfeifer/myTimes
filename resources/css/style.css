@@ -47,11 +47,15 @@ li {
 }
 
 #orca {
-  width: 280px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
 
 #burger {
-  width: 280px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
 
 #pictureArticles {
