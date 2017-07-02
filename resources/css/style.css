@@ -27,6 +27,26 @@ li {
   list-style: none;
 }
 
+#content {
+  display: flex;
+}
+
+.column {
+  display: inline-flex;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
 #mainImage {
   color: white;
   background-image: url("../main_story.png");
@@ -38,12 +58,18 @@ li {
 
 #earth {
   background-image: url("../fall_season.png")
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #camera {
   background-image: url("../hipster_cameraman.png")
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #cats {
   background-image: url("../cat_ceo.png")
+  background-repeat: no-repeat;
+  background-size: contain;
 }
