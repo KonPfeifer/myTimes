@@ -86,7 +86,7 @@ img.cookie {
 
 }
 
-.news-bites.bite {
+.news-bites .bite {
   display: block;
   padding: 10px;
   bottom-border: solid black 1px;
