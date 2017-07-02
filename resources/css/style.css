@@ -65,7 +65,7 @@ li {
 }
 
 #small {
-
+  padding: 10px;
 }
 
 img.cookie {
@@ -84,6 +84,10 @@ img.cookie {
 
 .news-bites {
 
+}
+
+#bite-heading {
+  text-align: center;
 }
 
 .news-bites .bite {
