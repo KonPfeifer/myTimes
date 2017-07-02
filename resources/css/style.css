@@ -71,8 +71,22 @@ li {
   padding: 10px;
 }
 
+img.cookie {
+  height: 240px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column#small {
+  width: 240px;
+}
+
 .news-bites {
-  
+
 }
 
 #earth {
