@@ -6,10 +6,11 @@
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-  <div id="container">
-    <div id="header">
-      <img src="resources/myt_logo.jpg">
-      <h3 id="logo">My Times</h3>
+    <header>
+     <div id="logo">
+       <img src="resources/myt_logo.jpg">
+       <h3 id="logoText">My Times</h3>
+     </div>
       <nav>
         <ul>
           <a href="">World<li></li></a>
@@ -18,13 +19,15 @@
           <a href=""><li>Science</li></a>
         </ul>
       </nav>
-    </div>
+    </header>
 
-    <div id="Content">
 
-    <div class="column large">
 
-      <div id="large">
+
+    <div id="mainContent">
+
+     <div class="large">
+
         <h1 id="mainImage">Mother of Three Buys Tuna Steak at Phish Concert. Leaves, "Feeling Funny."</h1>
         <p>MONUMENT VALLEY, AZ - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Pellentesque nec nisl at augue dapibus dignissim. Nunc condimentum rutrum metus,
@@ -36,10 +39,9 @@
           lobortis arcu ex id odio. Nam fermentum nulla et eros bibendum, sed ullamcorper
           massa scelerisque. Vestibulum aliquet placerat leo a hendrerit. Nulla non sagittis
           neque. Nullam sit amet fringilla massa.</p>
-      </div>
-    </div>
 
-      <div>
+
+      <div id="largeSmall">
         <h2>Orca spends Vacation at Land World Puget</h2>
         <p>PUGET, SO - Sed felis elit, faucibus et ipsum vel, vehicula ultrices purus.
           Sed congue odio vitae malesuada rhoncus. Integer vitae nisi pulvinar ante accumsan..</p>
@@ -47,15 +49,16 @@
         <h2>Burger for Breakfast: How Early is too Early?</h2>
         <p>MEW YORK, MY - Interdum et malesuada fames ac ante ipsum primis in faucibus.
           Pellentesque id quam facilisis, ultrices ante ut, rutrum enim. Praesent eu nisl erat.</p>
+        </div>
 
+        <div id="pictureArticles"
 
-        <h2 id="earth">Earth Spins Backwards for 2017</h2>
-
-
-        <h2 id="camera">Research Shows Cameras Erase Memory</h2>
+        <h2>Earth Spins Backwards for 2017</h2>
+        <h2>Research Shows Cameras Erase Memory</h2>
       </div>
+    </div>
 
-      <div class="column medium">
+      <div id="medium">
         <h2>FBI Finds Action Star Guilty of False Advertising</h2>
         <p>WASHINGTON DC - Donec luctus sem augue, rutrum posuere orci aliquam sed. Nam
           vitae aliquam lectus. Sed tempor tortor est, nec sagittis eros tincidunt sed.
@@ -73,7 +76,7 @@
           tellus pellentesque in.</p>
       </div>
 
-      <div class="column small">
+      <div class="small">
         <img src="resources/cookie.png">
         <h4>NEWS BITES</h4>
         <p>Cat Emoji Goes Viral</p>
@@ -83,6 +86,7 @@
         <p>Illustration in Marketing Materials</p>
         <p>Finally a Top Secret Way You Can</p>
       </div>
+    </div>
 
     <div id="footer">
       <p>My Times</p>
@@ -100,7 +104,6 @@
 
 
     </div>
-</div>
 
   </body>
 </html>
