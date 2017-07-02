@@ -1,21 +1,49 @@
+#container {
+  font-family: Georgia;
+}
+
 #header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   display: flex;
   border-bottom: solid black 1px;
+  padding-bottom: 10px;
 }
 
 #logo {
   color: MediumAquamarine;
   display: inline-block;
+  margin-left: 10px;
 }
 
 nav {
   display: inline-block;
+  position: relative;
 }
 
 li {
   display: inline-block;
   list-style: none;
+}
+
+#mainImage {
+  color: white;
+  background-image: url("../main_story.png");
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 600px;
+  text-align: center;
+}
+
+#earth {
+  background-image: url("../fall_season.png")
+}
+
+#camera {
+  background-image: url("../hipster_cameraman.png")
+}
+
+#cats {
+  background-image: url("../cat_ceo.png")
 }
