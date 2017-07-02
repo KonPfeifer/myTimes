@@ -89,7 +89,7 @@ img.cookie {
 .news-bites .bite {
   display: block;
   padding: 10px;
-  bottom-border: solid black 1px;
+  border-bottom: solid black 1px;
   background-color: WhiteSmoke;
   color: DimGray;
   font-family: Verdana;
