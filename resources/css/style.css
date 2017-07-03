@@ -216,6 +216,13 @@ footer {
   padding-top: 5px;
 }
 
+#copyrightDiv {
+  position: relative;
+  bottom: -10px;
+  left: 575px;
+  z-index: 20;
+}
+
 #copyright {
   font-size: 12px;
 }
