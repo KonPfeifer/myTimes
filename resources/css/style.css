@@ -1,5 +1,6 @@
 body {
   font-family: Georgia;
+  margin: 0px;
 }
 
 header {
@@ -8,7 +9,11 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  background-color: white;
 }
 
 #logo {
@@ -24,6 +29,7 @@ header {
 
 nav {
   display: inline-block;
+  padding-right: 15px;
 }
 
 li {
@@ -34,6 +40,8 @@ li {
 
 #mainContent {
   display: flex;
+  position: relative;
+  top: 110px;
 }
 
 p {
@@ -187,6 +195,8 @@ footer {
   font-family: Verdana;
   font-size: 12px;
   height: 300px;
+  position: relative;
+  top: 150px;
 }
 
 #footerLogo {
