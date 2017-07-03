@@ -28,6 +28,8 @@ nav {
 
 li {
   display: inline-block;
+  text-decoration: underline;
+  color: black;
 }
 
 #mainContent {
@@ -199,4 +201,8 @@ footer {
 
 #footerLinks {
   padding-right: 20px;
+}
+
+#copyright {
+  font-size: 12px;
 }
