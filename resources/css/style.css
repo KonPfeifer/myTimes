@@ -190,6 +190,7 @@ footer {
   direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
@@ -197,6 +198,7 @@ footer {
   height: 300px;
   position: relative;
   top: 150px;
+  width: 100%;
 }
 
 #footerLogo {
@@ -211,8 +213,13 @@ footer {
 
 #footerLinks {
   padding-right: 20px;
+  padding-top: 5px;
 }
 
 #copyright {
   font-size: 12px;
+}
+
+#logoLinks {
+  display: flex;
 }
